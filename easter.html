@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Зделай перевод , Джон!!!!!!!!!</title>
+	<script src="../JQuery/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="easter.css">
+</head>
+<body>
+	<div class="flags-container flex justify-center">
+		<img class="language-image active" src="img/depositphotos_98833140-stock-photo-the-usa-flag.jpg" data-lang="usa">
+		<img class="language-image" src="img/Russia.png" data-lang="rus">
+	</div>
+	<form action="">
+		<p id="name">
+			<span class="description"> Введите ваше имя </span>
+			<input type="text" placeholder="Введите ваше имя">
+		</p>
+		<p id="gender">
+			<span class="description">Ваш пол</span>
+			<span id="male">M</span><input type="radio" name="gender" value="male">
+			<span id="female">Ж</span><input type="radio" name="gender" value="female">
+		</p>
+		<p id="BornCountry-wrapper">
+			<span class="description">Место рождения</span>
+			<select name="" id="born_country">
+				<option value="USA">Америка</option>
+				<option value="RU">Россия</option>
+				<option value="UK">Украина</option>
+			</select>
+		</p>
+		<p id="isShowLiveContry">
+				<span class="description">Страна где вы родились и страна где вы живете равны?</span>
+				<input type="checkbox">
+		</p>
+		<p id="Country-wrapper">
+			<span class="description">Место жительства</span>
+			<select name="" id="live_country">
+				<option value="USA">Америка</option>
+				<option value="RU">Россия</option>
+				<option value="UA">Украина</option>
+			</select>
+		</p>
+		<p id="email">
+			<span class="description">Введите ваш email</span>
+			<input type="text" placeholder="Введите ваш email">
+		</p>
+		<input type="submit" id="go" value="Отправить">
+	</form>
+	<script src="easter.js"></script>	
+</body>
+</html>

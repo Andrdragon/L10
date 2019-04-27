@@ -1,0 +1,24 @@
+.flags-container img{
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	cursor:pointer;
+}
+.flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.justify-center{
+	justify-content: center;
+}
+
+.flags-container img:hover{
+opacity: .7;
+border: 2px solid yellow;
+}
+.active{
+	border:2px solid red !important;
+}
